@@ -30,7 +30,7 @@ int main()
   cin.get();
   //Moves all letters and numbers only to another array
   for (int i = 0; i < 80; i++) {
-    if ((input[i] >= 97 && input[i] <= 122) || (input[i] >= 65 && input[i] <= 90 || input[i] >= 48 && input[i] <= input[i] <= 57)) {
+    if ((input[i] >= 97 && input[i] <= 122) || (input[i] >= 65 && input[i] <= 90) || (input[i] >= 48 && input[i] <= 57)) {
       input2[counter] = input[i];
       counter++;
     }
